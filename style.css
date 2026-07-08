@@ -529,6 +529,11 @@ footer p{
 
 
 
+
+
+
+
+
 /* Responsive */
 
 
@@ -601,7 +606,10 @@ footer p{
     }
 
     .menu{
-        display: none;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
     }
 
     .home{
@@ -777,6 +785,7 @@ textarea{
     width: 100%;
 }
 
+/* Footer Section Responsive */
 
 footer{
     padding: 3rem 1.5rem;
